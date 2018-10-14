@@ -1,0 +1,191 @@
+    .video {
+        margin-bottom:15%;
+        margin-top:0%;
+    }
+    .costs {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        left: 0px;
+
+    }
+
+    .video-section{
+        padding-top: 3%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .people_imgs {
+        border-radius: 0%;
+        border: 4px solid #FED136; 
+    }
+
+    #donateModal {
+        height:200%;
+        width:100%;
+        outline: none;
+        }
+
+    @media(max-width : 1300px) {
+        .modal .modal-body {
+        max-height: 200px;
+        overflow-y: auto;
+    }     }   
+
+    .text-justify {
+      text-align: justify;
+    }
+
+    .contact-info {
+        color: white;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, sans-serif;
+        text-transform: none;
+        font-size: 14pt;
+
+    }
+
+    @media(max-width:768px) {
+        .contact-info{
+            font-size: 15px;
+            line-height: 15px;
+            }
+    }
+
+    @media(max-width:650px) {
+        .contact-info {
+            font-size: 13px;
+            line-height: 13px;
+        }
+    }
+
+    .contact-kat{
+        cursor: pointer;
+        color:white;
+        text-decoration: underline;
+    }
+
+    .donate-btn {
+        font-weight: bold;
+        color: white;
+        background-color: #fed136;
+        background-image: none;
+        height: 150%;
+        font-size: 150%;
+
+
+    }
+
+    .cornell-logo {
+        border-style: solid;
+        border-width: 5px;
+        border-color:white;
+    }
+
+    .donate-btn.active, .donate-btn:active {
+        background-color: white;
+        background-image: none;
+        color: white;
+
+    }
+
+    .project-costs{
+        margin-bottom: 3%;
+    }
+
+
+    .donate-btn.active, .donate-btn.focus, .donate-btn:active,
+    .donate-btn:hover, .donate-btn:visited, .donate-btn.visited,
+    .donate-btn:checked, .donate-btn.checked {
+        background-image: none;
+        background-color: #3CB371;
+        color:white;
+    }
+
+    .buffer {
+        margin-bottom:5%; 
+    }
+
+    .team-img{
+        height: 85%;
+        width: 85%;
+    }
+
+    .team-small .team-img {
+        height: 75%;
+        width: 75%;
+    }
+
+    .navbar-default .nav li #nav-donate {
+        color:#fed136;
+        font-weight: bolder;
+        font-size: 120%;
+    }
+
+    .navbar-default .nav li #nav-donate:hover {
+        color:white;
+        background-color: mediumseagreen;
+    }
+
+    .intro-heading {
+        color:white;
+    }
+
+    #supporters{
+        padding-top: 10%;
+    }
+
+    .help-btn-text{
+        color:white;
+    }
+
+    .help-btn-text.active, .help-btn-text.focus, .help-btn-text:active,
+    .help-btn-text:hover, .help-btn-text:visited, .help-btn-text.visited,
+    .help-btn-text:checked, .help-btn-text.checked {
+        text-decoration: none;
+        color: white;
+    }
+
+    .timeline-image.help-btn {
+        background-color: #fed136;
+    }
+
+    .timeline-image.help-btn:active, .timeline-image.help-btn:focus,
+    .timeline-image.help-btn:hover, .timeline-image.help-btn:visited,
+    .timeline-image.help-btn:checked {
+        background-color: mediumseagreen;
+    }
+
+    .contact-btn .fa-linkedin {
+        background-color: black; 
+        border-width: 2px;
+        border-color: black;
+        color: whitesmoke;
+        border-radius: 10%;
+    }
+
+    .contact-btn .fa {
+        padding: 5px;
+    }
+
+    a.btn.btn-xl.contact-btn:hover span.fa-linkedin{
+        color: #fec503;
+        background-color: whitesmoke;
+    }
+
+    .contact-btn {
+        width: 250px;
+        margin-top: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border-color: black;
+        color: black;
+    }
+
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
